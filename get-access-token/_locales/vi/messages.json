@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Get access_token"
+  },
+  "appDescription": {
+    "message": "Khởi tạo access_token một cách an toàn và dễ dàng"
+  },
+  "pleaseWait": {
+    "message": "Vui lòng chờ một giây!..."
+  },
+  "getAccessTokenSuccess": {
+    "message": "Hoàn thành! access_token của bạn đã được tạo và hiển thị ở dưới."
+  }
+}

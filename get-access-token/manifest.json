@@ -1,0 +1,40 @@
+{
+	"name": "__MSG_appName__",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "__MSG_appDescription__",
+	"author": "Vy Nghia",
+	"icons": {
+		"16": "images/icon-16.png",
+		"128": "images/icon-128.png"
+	},
+	"default_locale": "vi",
+	"background": {
+		"scripts": [
+			"scripts/background.js"
+		]
+	},
+	"permissions": [
+		"tabs",
+		"cookies",
+		"http://*/*",
+		"https://*/*",
+		"notifications",
+		"storage",
+		"contextMenus",
+		"webRequest",
+		"webRequestBlocking"
+	],
+	"browser_action": {
+		"default_icon": {
+			"19": "images/icon-19.png",
+			"38": "images/icon-38.png"
+		},
+		"default_title": "__MSG_appName__"
+	},
+	"web_accessible_resources": [
+		"images/icon-48.png"
+	],
+	"options_page": "main.html",
+	"content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://ssl.google-analytics.com https://ajax.googleapis.com https://cdnjs.cloudflare.com; object-src 'self'"
+}
